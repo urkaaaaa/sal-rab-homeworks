@@ -2,14 +2,14 @@ function addInCartMessage(title, price) {
     let productName = title;
     let productPrice = price;
 
-    let massage;
-    massage = productName;
-    massage = massage + ' ';
-    massage = massage + 'за ';
-    massage = massage + productPrice;
-    massage = massage + '  теперь в корзине!';
+    let message;
+    message = productName;
+    message = message + ' ';
+    message = message + 'за ';
+    message = message + productPrice;
+    message = message + ' теперь в корзине!';
 
-    console.log(massage);
+    console.log(message);
 
 
 
